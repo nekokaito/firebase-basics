@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
+        <div className="flex justify-center items-center gap-4 my-10">
             <NavLink to="/"> Home</NavLink>
             <NavLink to="/login">Login</NavLink>
         </div>
